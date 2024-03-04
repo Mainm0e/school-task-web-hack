@@ -61,4 +61,22 @@ Vulnerabilities refer to weaknesses or flaws in a system's design, implementatio
 
 It's crucial for organizations and individuals to regularly assess and address vulnerabilities to enhance overall cybersecurity posture and minimize the risk of exploitation. Regular security assessments, vulnerability scanning, and adherence to security best practices are essential components of effective vulnerability management.
 
+# Web Shell
+
+A web shell is a malicious script or program that provides unauthorized remote access and control over a compromised web server or application. Typically written in scripting languages such as PHP, ASP, or JSP, web shells are used by attackers to exploit security vulnerabilities and establish a backdoor into the target system.
+
+### Key Characteristics:
+
+**Remote Control:** Web shells enable attackers to execute commands on the server remotely, granting them control over the compromised system.
+
+**File Manipulation:** They often include features for uploading, downloading, editing, or deleting files on the compromised server, allowing attackers to manipulate the file system.
+
+**Backdoor Access:** Web shells act as backdoors, providing persistent unauthorized access to the compromised system for future exploitation.
+
+**Database Interaction:** Some web shells have functionalities to interact with databases, allowing attackers to manipulate or extract data from associated databases.
+
+**Credential Theft:** Web shells may capture credentials entered by users interacting with compromised web applications, posing a risk to sensitive information.
+
+Web shells are a serious security threat and are commonly used in cyber attacks. Detecting and mitigating web shells is crucial for maintaining the security of web servers and applications. It's important to note that the creation, deployment, or use of web shells for unauthorized access is illegal and unethical. Adhering to ethical guidelines and legal standards is essential in any cybersecurity-related activities.
+
 > ⚠️ These methods and tools are for educational purposes only, so that you have a better understanding of how to protect against similar vulnerabilities. You must ensure that you do not attempt any exploit-type activity without the explicit permission of the owner of the machine, system or application. Failure to obtain permission risks breaking the law.
