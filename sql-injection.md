@@ -7,13 +7,13 @@ SQL injection is a type of cyber attack where an attacker manipulates or inserts
 In DVWA, the left sidebar provides a SQL Injection tab for testing SQL injection attacks at different security levels. On this page, there is an input field for User ID, allowing users to retrieve data based on a specific user ID.
 
 For this attack scenario, the goal is to extract all user data from the server. The server likely uses a SQL command similar to:
-```
+``` sql
 SELECT * FROM users WHERE id = 'user_id_input_value';
 ```
 
 To exploit this, I input user' or '1'='1 into the User ID field and click the submit button. The manipulated SQL command becomes:
 
-```
+``` sql
 SELECT * FROM users WHERE id = 'user' or '1' = '1';
 ```
 
