@@ -11,8 +11,6 @@ To validate the project you will have to deploy the web platform, find at least 
 
 Kali Linux is a specialized Linux distribution designed for penetration testing, ethical hacking, and security auditing. It is developed and maintained by Offensive Security, a leading provider of information security training and certifications. Kali Linux is widely used by cybersecurity professionals, penetration testers, and security enthusiasts to assess and improve the security of computer systems.
 
-[burp](http://burp/)
-
 [Docker](https://www.docker.com/products/docker-desktop/)
 
 Docker is utilized for hosting DVWA (Damn Vulnerable Web Application), providing a containerized environment for efficient deployment and testing.
