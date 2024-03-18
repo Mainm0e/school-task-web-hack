@@ -21,4 +21,5 @@ This causes the SQL query to retrieve all user data because the condition '1' = 
 
 returns
 In this case i use **tom' or '1' = '1**
+
 ![Image Name](image/sql-injection.png)
