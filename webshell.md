@@ -1,3 +1,7 @@
+## What is Web Shell
+
+A web shell is a type of malicious script or program that hackers deploy on web servers to gain remote access and control over the server. Web shells are typically written in scripting languages like PHP, ASP, or JSP, and they provide an interface for attackers to execute commands, upload/download files, manipulate databases, and perform various other actions on the compromised server.
+
 ## Web Interface Shell
 
 
